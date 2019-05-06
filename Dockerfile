@@ -1,5 +1,5 @@
 FROM openjdk:8-jre-alpine
-COPY /mixer2-fruitshop-springboot/target/mixer2-fruitshop-springboot-1.0-SNAPSHOT /app/
+COPY /mixer2-fruitshop-springboot/target/mixer2-fruitshop-springboot-1.0-SNAPSHOT.jar /app/
 ADD /mixer2-fruitshop-springboot/target/lib /app/lib
 EXPOSE 8080
 
